@@ -30,4 +30,3 @@ production:
   <<: *default
   adapter: postgresql
   encoding: unicode
- cs 
