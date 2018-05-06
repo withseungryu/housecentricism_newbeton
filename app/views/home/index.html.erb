@@ -1,0 +1,45 @@
+
+  <div class="full_wrap">
+<header>
+  <!--<div class="logo"><img src="logo1.png" width=300px height=200px alt="집 동 설"></img></div>-->
+  <center><%= image_tag '/logo1.png', size: "300x300"%></center>
+</header>
+
+  <div class="main_wrap">
+<div class="big_box">
+    <div class="small_box">
+        <!--인덱스 검색창입니다-->
+        
+        
+        <button type="submit" id="postcodify_search_button" class="add_button"><span class="addment">주 소 검 색</span></button><br /><br /><br />
+           
+        <form method="GET" action="/home/write">
+            <span class="postcode">우편번호:</span><input type="text" id="zip_code" name="zip_code" class="postcodify_postcode5" value="" /> <br />
+            <span class="normal_add">기본주소:</span><input type="text" id="search_name" name="search_name" class="postcodify_address" value="" /><br />
+            <span class="exact_add">상세주소:</span><input type="text" id="detailed_address" name="detailed_address" class="postcodify_details" value="" /><br />
+            <span class="old_add">아파트/건물명:</span><input type="text" id="building_info" name="building_info" class="postcodify_extra_info" value="" /><br /><br />
+            <span class="old_add">측정범위:</span>
+            <span class="widthman">
+            <input type="radio" id="d1" name="distance" value="100m" checked="checked" /><span class="dis1">100m</span>
+            <input type="radio" id="d2" name="distance" value="500m" /><span class="dis2">500m</span>
+            <input type="radio" id="d3" name="distance" value="1000m"/><span class="dis3">1000m</span><br/></span>
+            <button type="submit" class="check_button"><span class="checkment">확인</span></button>
+            <!-- jQuery와 Postcodify를 로딩한다 -->
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+            <script src="//d1p7wdleee1q2z.cloudfront.net/post/search.min.js"></script>
+            
+            <!-- "검색" 단추를 누르면 팝업 레이어가 열리도록 설정한다 -->
+            <script> $(function() { $("#postcodify_search_button").postcodifyPopUp(); }); </script>
+        </form></div></main>
+    </div>
+<br>
+
+</div>
+  
+
+<script>
+   
+</script>
+
+
+

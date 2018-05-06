@@ -1,0 +1,132 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+.big_box{
+        margin-top: 50px;
+        text-align: center;
+    }
+/*.full_wrap{*/
+/*  position:absolute;*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+
+/*}*/
+
+.logo{
+      text-align: center;
+      font-family: 'Do Hyeon', sans-serif;
+}
+.small_box{
+  margin-top: -20px;
+}
+.main_wrap{
+  position: relative;
+  bottom: 25px;
+}
+.add_button{
+    position: relative;
+    border-radius: 70%;
+    padding: 6px 700px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: skyblue;
+    border: 1px solid transparent ;
+    border-radius: 4px;
+    font-family: 'Do Hyeon', sans-serif;
+}
+.check_button{
+    font-family: 'Do Hyeon', sans-serif;
+    padding: 6px 50px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    color: #fff;
+    background-color: #5cb85c;
+    border-radius: 4px;
+  padding: 10px 100px;
+}
+.addment{
+  font-size: 20pt;
+}
+.checkment{
+  font-size: 20pt;
+}
+.postcode, .normal_add, .exact_add, .old_add{
+  font-family: 'Do Hyeon', sans-serif;
+  letter-spacing: 5pt;
+  font-size: 16pt;
+}
+.postcode{position:relative; right: 18px;} .normal_add{position:relative; right:20px;} .exact_add{position:relative; right:20px;}
+.old_add{
+  position: relative;
+  right: 50px;
+}
+.posticodify_address{position: relative;}.posticodify_details{position: relative;}.posticodify_extra_info{position: relative;}
+.full_wrap{
+  
+}
+
+.postcodify_address, .postcodify_details, .postcodify_postcode5{
+    text-align: center;
+    font-size: 15pt;
+    letter-spacing: 3pt;
+    font-family: 'Do Hyeon', sans-serif;
+    width: 40%;
+    padding: 9px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+.postcodify_extra_info{
+  position: relative;
+  text-align: center;
+    font-size: 15pt;
+    letter-spacing: 3pt;
+    font-family: 'Do Hyeon', sans-serif;
+    width: 40%;
+    padding: 9px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+    right: 30px;
+}
+.postcodify_postcode5{
+  position:relative;
+  left: 3px;
+}
+.dis1, .dis2, .dis3{
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 15pt;
+    
+}
+.widthman{
+  position: relative;
+  right: 50px;
+}
+.placeinfo_wrap {position:absolute;bottom:28px;left:-150px;width:300px;}
+.placeinfo {position:relative;width:100%;border-radius:6px;border: 1px solid #ccc;border-bottom:2px solid #ddd;padding-bottom: 10px;background: #fff;}
+.placeinfo:nth-of-type(n) {border:0; box-shadow:0px 1px 2px #888;}
+.placeinfo_wrap .after {content:'';position:relative;margin-left:-12px;left:2%;width:22px;height:12px;background:url('http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')}
+.placeinfo a, .placeinfo a:hover, .placeinfo a:active{color:#fff;text-decoration: none;}
+.placeinfo a, .placeinfo span {display: block;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+.placeinfo span {margin:5px 5px 0 5px;cursor: default;font-size:13px;}
+.placeinfo .title {font-weight: bold; font-size:14px;border-radius: 6px 6px 0 0;margin: -1px -1px 0 -1px;padding:10px; color: #fff;background: #2b98f2;background: #2b98f2 url(http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/arrow_white.png) no-repeat right 14px center;}
+.placeinfo .tel {color:#42a4f4;}
+.placeinfo .jibun {color:#999;font-size:11px;margin-top:0;}
+.category li {float:left;}
+.category {text-decoration:none;text-align:center;}
+#d1, #d2, #d3 {margin-left:1%; margin-bottom:2%; margin-top:0;}
