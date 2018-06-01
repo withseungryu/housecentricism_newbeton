@@ -13,40 +13,45 @@
  *= require_tree .
  *= require_self
  */
- 
 
 @import url('https://fonts.googleapis.com/css?family=Titan+One');
 @import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
-
 /*.distance_button{*/
+
 /*  margin-top: 10px;*/
+
 /*  margin-left: 10px;*/
+
 /*  margin-right: 10px;*/
+
 /*  margin-bottom: 10px;*/
+
 /*}*/
-.distance_button{
+
+.distance_button {
   margin-top: 2px;
   margin-bottom: 2px;
 }
-.map_wrap{
+
+.map_wrap {
   margin-top: -30px;
   font-family: 'Do Hyeon', sans-serif;
-    padding: 6px 50px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    cursor: pointer;
-    border: 1px solid transparent;
-    color: black;
-    background-color: skyblue;
-    border-radius: 4px;
-    padding: 10px 100px;
-  
+  padding: 6px 50px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  color: black;
+  background-color: skyblue;
+  border-radius: 4px;
+  padding: 10px 100px;
 }
+
 #category {
   display: flex;
   flex-direction: row;
@@ -54,8 +59,8 @@
   list-style: none;
 }
 
-.distance_button{
-  display:flex;
+.distance_button {
+  display: flex;
   flex-direction: row;
   justify-content: center;
 }
@@ -65,27 +70,30 @@
   flex-direction: column;
 }
 
-.daum_map{
+.daum_map {
   border-style: solid;
   border-radius: 10%;
   top: 40px;
   position: relative;
 }
+
 .select {
-    width: 200px;
-    height: 30px;
-    padding-left: 10px;
-    font-size: 18px;
-    color: #006fff;
-    border: 1px solid #006fff;
-    border-radius: 3px;
+  width: 200px;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 18px;
+  color: #006fff;
+  border: 1px solid #006fff;
+  border-radius: 3px;
 }
-.form_control{
+
+.form_control {
   position: relative;
   left: 800px;
   bottom: 500px;
 }
-.many_img{
+
+.many_img {
   display: flex;
   justify-content: center;
   left: 700px;
@@ -96,7 +104,7 @@
   top: 0;
 }
 
-#map{
+#map {
   display: flex;
   position: relative;
   justify-content: center;
@@ -105,7 +113,7 @@
   margin-bottom: 20px;
 }
 
-.con, .bank, .drug, .mart, .cafe{
+.con, .bank, .drug, .mart, .cafe {
   margin-left: 40px;
 }
 
@@ -113,60 +121,52 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
-  
 }
 
 .check_box_mother1 {
   display: flex;
   flex-direction: column;
-  
 }
 
 .check_box_mother2 {
   display: flex;
   flex-direction: column;
-  
 }
 
 .check_box_mother3 {
   display: flex;
   flex-direction: column;
-  
 }
 
 .check_box_mother4 {
   display: flex;
   flex-direction: column;
-  
 }
 
 .check_box_mother5 {
   display: flex;
   flex-direction: column;
-  
 }
 
 .check_box1, .check_box2, .check_box3, .check_box4, .check_box5 {
-    position: relative;
-    display: flex;
-    margin-left: 40px;
-    margin-right: 40px;
-    justify-content: center;
-    
+  position: relative;
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+  justify-content: center;
 }
 
-
-.number_box{
-  display:flex;
-
+.number_box {
+  display: flex;
   left: 750px;
   bottom: 290px;
 }
-.con_num, .bank_num, .drug_num, .mart_num, .cafe_num{
+
+.con_num, .bank_num, .drug_num, .mart_num, .cafe_num {
   margin-left: 80px;
 }
-.header_wrap{
+
+.header_wrap {
   border-style: solid;
   border-radius: 2%;
   border-color: white;
@@ -175,35 +175,28 @@
   text-align: center;
   background-color: skyblue;
 }
-.addrment{
-  
+
+.addrment {
   letter-spacing: 3pt;
   font-family: 'Do Hyeon', sans-serif;
   font-size: 25pt;
 }
-/*.distance{*/
-/*  font-family: 'Titan One', cursive;*/
-/*  font-size: 40pt;*/
-/*  display:flex;*/
-/*  margin-left: 30pt;*/
-/*}*/
-.check_box{
+
+.check_box {
   font-size: 20pt;
   font-family: 'Do Hyeon', sans-serif;
 }
-.out{
+
+.out {
   width: 200px;
   height: 200px;
   margin-top: 200px;
 }
-.final{
+
+.final {
   font-family: 'Do Hyeon', sans-serif;
   font-size: 50pt;
   text-align: center;
   display: flex;
   justify-content: center;
 }
-.bk9, .mt1, .pm9, .ol7, .ce7, .CS2{
-   
-}
-
